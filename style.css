@@ -21,6 +21,11 @@ body{
 .head-1 img{
     width: 10.25rem;
     height: 5.5rem;
+    transition: 2s;
+}
+.head-1 img:hover{
+    width: 12.25rem;
+    height: 7.5rem;
 }
 section{
     display: flex;
@@ -61,6 +66,7 @@ form{
 }
 form input{
     font-size: 1rem;
+    color: #fff;
     line-height: 2.5;
     width: 300px;
     padding: 0.4rem 3.5rem 0.4rem 0.5rem;
@@ -80,3 +86,138 @@ form button{
 form button i{
     padding-left: 35px;
 }
+#till-end{
+    background-color: black;
+    height: 100%;
+}
+#trending{
+    margin: 0 20vh;
+}
+.line h2{
+    font-size: x-large;
+    margin: 5vh 0 3vh 0;
+}
+.select select{
+    background:#1f1e1e;
+    color: #fff;
+    border-radius: 0.7vh;
+    gap: 10vh;
+}
+#select-region{
+    padding: 1vh 6vh 1vh 0;/
+    /* text-align: left;    */
+}
+#select-content{
+    padding: 1vh 6vh 1vh 0;
+    text-align: left;
+}
+.select{
+    margin-bottom: 5vh;
+}
+.heading{
+    margin:8vh 0 1.5vh 0;
+}
+.img{
+    /* margin: 0 20vh; */
+    overflow: auto;
+    white-space: nowrap;
+}
+.img img{
+    width: 190px;
+    height: 266px;
+    padding: 0 1vh;
+}
+#grid{
+    margin: 0 20vh;
+}
+.grid-4{
+    display: grid;
+    grid-template-columns: 40vh 40vh 40vh 40vh;
+    gap: 3vh;
+    justify-content: center;
+}
+.grid-4 div{
+    /* background: #4d3664,#031B88; */
+    background: linear-gradient(to bottom right, #000066 0%, #660066 100%);
+    border-radius: 2vh;
+    padding: 2vh 2vh 0vh 2vh;
+}
+.grid-4 div h2{
+    margin-bottom: 3vh;
+}
+.grid-4 div p{
+    line-height: 2.5vh;
+    font: bold;
+}
+.grid-4 div i{
+    float: right;
+    margin-top: 10vh;
+    font-size: 10vh;
+}
+#qu {
+    margin: 0 20vh;
+}
+ .accordion-q {
+  background-color: #3d3d3d;
+  color: #fff;
+  font-size: large;
+  cursor: pointer;
+  padding: 4vh;
+  margin: 0.6vh 0;
+  width: 168.5vh;
+  text-align: left;
+  border: none;
+  outline: none;;
+  /* transition: 0.4s; */
+}
+.active, .accordion-q:hover {
+  background-color: rgb(113, 116, 113);
+}
+.ans {
+  padding: 7vh 4vh;
+  background-color: #3d3d3d;
+  color: #fff;
+  font-size: x-large;
+  display: none;
+  overflow: hidden;
+}
+.accordion-q:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    /* font-size: 13px; */
+    color: #fff;
+    float: right;
+    /* margin-left: 5px; */
+  }
+  
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+#foot{
+    margin: 0 20vh;
+}
+.nav ul li{
+    list-style: none;
+    margin: 2vh 0;
+}
+.nav ul li a{
+    color: #fff;
+    /* margin: 0 1vh; */
+}
+.nav{
+    display: flex;
+    gap: 30vh;
+    /* row-gap: 10vh; */
+}
+.number{
+    margin:6vh 0;
+}
+#last-2 .incenter{
+    margin-top: 10vh;
+}
+#last-2 .incenter form input{
+    width: 80vh;
+}
+#last-2 .incenter form button{
+    font-size: larger;
+}
+
